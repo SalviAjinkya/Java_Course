@@ -15,15 +15,15 @@ class Arithmetic {
         System.out.println("Addition of given numbers: " + sum);
 
         int sub;
-        sub = A + B;
+        sub = A - B;
         System.out.println("Subtraction of given numbers: " + sub);
 
         int mul;
-        mul = A + B;
+        mul = A * B;
         System.out.println("Multiplication of given numbers: " + mul);
 
         int div;
-        div = A + B;
+        div = A / B;
         System.out.println("Division of given numbers: " + div);
 
     }
