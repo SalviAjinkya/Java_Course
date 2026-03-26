@@ -10,6 +10,7 @@ class Swap {
         int A = input.nextInt();
         System.out.println("Enter value of B; ");
         int B = input.nextInt();
+        //dont need to use int again and again
         int C = A;
         A = B;
         B = C;
