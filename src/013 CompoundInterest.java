@@ -4,7 +4,7 @@ class CompoundInterest {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Welcome to Compound Interest(CI) Calculator....");
+        System.out.println("Welcome to Compound Interest(CI) Calculator.....");
         System.out.println("To calculate CI we need Principal amount, Time is years and Rate of interest");
         System.out.println("Please Enter Principal amount: ");
         double P = input.nextDouble();
