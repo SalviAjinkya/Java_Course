@@ -19,6 +19,8 @@ class Grading {
             } else{
                 System.out.println("Your Grade is F");
             }
+        } else {
+            System.out.println(" Please enter valid percentage!!");
         }
     }
 }
