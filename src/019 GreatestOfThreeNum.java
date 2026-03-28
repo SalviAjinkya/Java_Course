@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class GreatesstOfThreeNum {
+class GreatestOfThreeNum {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
@@ -11,5 +11,13 @@ class GreatesstOfThreeNum {
         int b = input.nextInt();
         System.out.println("enter Third number:");
         int c = input.nextInt();
+
+        if (a > b && a > c){
+            System.out.println("Greatest number: " + a);
+        } else if (b > a && b > c){
+            System.out.println("Greatest number: " + b);
+        } else if (c > b && c > a){
+            System.out.println("Greatest number: " + c);
+        }
     }
 }
