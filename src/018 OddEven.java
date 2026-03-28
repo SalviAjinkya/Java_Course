@@ -8,12 +8,14 @@ class OddEven {
         System.out.println("Enter the number:");
         int num = input.nextInt();
 
-        if (num%2==0){
-            System.out.println("Given number is Even");
-        } else if (num==0) {
-            System.out.println("Given number is neither Even nor Odd (its zero)");
+        if (num != 0) {
+            if (num % 2 == 0) {
+                System.out.println("Given number is Even");
+            } else {
+                System.out.println("Given number is Odd");
+            }
         } else {
-            System.out.println("Given number is Odd");
+            System.out.println("Given number is zero");
         }
     }
 }
