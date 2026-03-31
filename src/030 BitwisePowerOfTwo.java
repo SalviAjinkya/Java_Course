@@ -7,7 +7,6 @@ class BitwisePowerOfTwo {
         System.out.println("Enter a number to check if it's a Power of Two: ");
         int n = input.nextInt();
 
-
         if (n > 0) {
             int result = n & (n - 1);
 
